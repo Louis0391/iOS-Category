@@ -15,6 +15,22 @@
 		631109121D466CEA00D47C5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631109101D466CEA00D47C5D /* LaunchScreen.storyboard */; };
 		6311091D1D466CEA00D47C5D /* CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6311091C1D466CEA00D47C5D /* CategoryTests.m */; };
 		631109281D466CEA00D47C5D /* CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631109271D466CEA00D47C5D /* CategoryUITests.m */; };
+		631109641D466D0A00D47C5D /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 631109371D466D0A00D47C5D /* UIColor+Hex.m */; };
+		631109651D466D0A00D47C5D /* UIImage+Fit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6311093A1D466D0A00D47C5D /* UIImage+Fit.m */; };
+		631109661D466D0A00D47C5D /* UIImage+circleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6311093D1D466D0A00D47C5D /* UIImage+circleImage.m */; };
+		631109671D466D0A00D47C5D /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 631109401D466D0A00D47C5D /* UITextField+Placeholder.m */; };
+		631109681D466D0A00D47C5D /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 631109431D466D0A00D47C5D /* NSObject+Runtime.m */; };
+		631109691D466D0A00D47C5D /* UIImage+Antialias.m in Sources */ = {isa = PBXBuildFile; fileRef = 631109461D466D0A00D47C5D /* UIImage+Antialias.m */; };
+		6311096A1D466D0A00D47C5D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 631109491D466D0A00D47C5D /* UIView+Frame.m */; };
+		6311096B1D466D0A00D47C5D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6311094C1D466D0A00D47C5D /* Reachability.m */; };
+		6311096C1D466D0A00D47C5D /* NSCalendar+Init.m in Sources */ = {isa = PBXBuildFile; fileRef = 6311094F1D466D0A00D47C5D /* NSCalendar+Init.m */; };
+		6311096D1D466D0A00D47C5D /* NSDate+Interval.m in Sources */ = {isa = PBXBuildFile; fileRef = 631109511D466D0A00D47C5D /* NSDate+Interval.m */; };
+		6311096E1D466D0A00D47C5D /* NSDate+Interval.m in Sources */ = {isa = PBXBuildFile; fileRef = 631109541D466D0A00D47C5D /* NSDate+Interval.m */; };
+		6311096F1D466D0A00D47C5D /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 631109581D466D0A00D47C5D /* UIImage+image.m */; };
+		631109701D466D0A00D47C5D /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 6311095A1D466D0A00D47C5D /* Foundation+Log.m */; };
+		631109711D466D0A00D47C5D /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6311095D1D466D0A00D47C5D /* NSString+Extension.m */; };
+		631109721D466D0A00D47C5D /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 631109601D466D0A00D47C5D /* NSObject+Log.m */; };
+		631109731D466D0A00D47C5D /* Collections2String.m in Sources */ = {isa = PBXBuildFile; fileRef = 631109631D466D0A00D47C5D /* Collections2String.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +67,37 @@
 		631109231D466CEA00D47C5D /* CategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		631109271D466CEA00D47C5D /* CategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryUITests.m; sourceTree = "<group>"; };
 		631109291D466CEA00D47C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631109361D466D0A00D47C5D /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		631109371D466D0A00D47C5D /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		631109391D466D0A00D47C5D /* UIImage+Fit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Fit.h"; sourceTree = "<group>"; };
+		6311093A1D466D0A00D47C5D /* UIImage+Fit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Fit.m"; sourceTree = "<group>"; };
+		6311093C1D466D0A00D47C5D /* UIImage+circleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+circleImage.h"; sourceTree = "<group>"; };
+		6311093D1D466D0A00D47C5D /* UIImage+circleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+circleImage.m"; sourceTree = "<group>"; };
+		6311093F1D466D0A00D47C5D /* UITextField+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Placeholder.h"; sourceTree = "<group>"; };
+		631109401D466D0A00D47C5D /* UITextField+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholder.m"; sourceTree = "<group>"; };
+		631109421D466D0A00D47C5D /* NSObject+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
+		631109431D466D0A00D47C5D /* NSObject+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
+		631109451D466D0A00D47C5D /* UIImage+Antialias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Antialias.h"; sourceTree = "<group>"; };
+		631109461D466D0A00D47C5D /* UIImage+Antialias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Antialias.m"; sourceTree = "<group>"; };
+		631109481D466D0A00D47C5D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		631109491D466D0A00D47C5D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		6311094B1D466D0A00D47C5D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6311094C1D466D0A00D47C5D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6311094E1D466D0A00D47C5D /* NSCalendar+Init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Init.h"; sourceTree = "<group>"; };
+		6311094F1D466D0A00D47C5D /* NSCalendar+Init.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Init.m"; sourceTree = "<group>"; };
+		631109501D466D0A00D47C5D /* NSDate+Interval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Interval.h"; sourceTree = "<group>"; };
+		631109511D466D0A00D47C5D /* NSDate+Interval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Interval.m"; sourceTree = "<group>"; };
+		631109531D466D0A00D47C5D /* NSDate+Interval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Interval.h"; sourceTree = "<group>"; };
+		631109541D466D0A00D47C5D /* NSDate+Interval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Interval.m"; sourceTree = "<group>"; };
+		631109571D466D0A00D47C5D /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		631109581D466D0A00D47C5D /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		6311095A1D466D0A00D47C5D /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		6311095C1D466D0A00D47C5D /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		6311095D1D466D0A00D47C5D /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		6311095F1D466D0A00D47C5D /* NSObject+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log.h"; sourceTree = "<group>"; };
+		631109601D466D0A00D47C5D /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
+		631109621D466D0A00D47C5D /* Collections2String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collections2String.h; sourceTree = "<group>"; };
+		631109631D466D0A00D47C5D /* Collections2String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collections2String.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +148,21 @@
 		631109011D466CEA00D47C5D /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				631109351D466D0A00D47C5D /* 处理颜色16进制格式 */,
+				631109381D466D0A00D47C5D /* 代码拉伸图片 */,
+				6311093B1D466D0A00D47C5D /* 返回一张圆形头像(裁剪法) */,
+				6311093E1D466D0A00D47C5D /* 获取文本框的占位文字及修改文字属性 */,
+				631109411D466D0A00D47C5D /* 获取一个类中的所有类方法和对象方法 */,
+				631109441D466D0A00D47C5D /* 剪切获取圆形头像锯齿处理 */,
+				631109471D466D0A00D47C5D /* 快速获取UIView的frame */,
+				6311094A1D466D0A00D47C5D /* 苹果原生的判断网络状态的分类Reachbility */,
+				6311094D1D466D0A00D47C5D /* 日期处理(计算两个时间的间隔值) */,
+				631109551D466D0A00D47C5D /* 生成沙盒路径 */,
+				631109561D466D0A00D47C5D /* 添加图片时不渲染 */,
+				631109591D466D0A00D47C5D /* 用于控制字典和数组打印输出格式为中文(直接拖入项目中就可以了,不要做任何处理) */,
+				6311095B1D466D0A00D47C5D /* 正则表达式 */,
+				6311095E1D466D0A00D47C5D /* 自定义字典转模型 */,
+				631109611D466D0A00D47C5D /* Collections2String */,
 				631109051D466CEA00D47C5D /* AppDelegate.h */,
 				631109061D466CEA00D47C5D /* AppDelegate.m */,
 				631109081D466CEA00D47C5D /* ViewController.h */,
@@ -138,6 +200,150 @@
 				631109291D466CEA00D47C5D /* Info.plist */,
 			);
 			path = CategoryUITests;
+			sourceTree = "<group>";
+		};
+		631109351D466D0A00D47C5D /* 处理颜色16进制格式 */ = {
+			isa = PBXGroup;
+			children = (
+				631109361D466D0A00D47C5D /* UIColor+Hex.h */,
+				631109371D466D0A00D47C5D /* UIColor+Hex.m */,
+			);
+			path = "处理颜色16进制格式";
+			sourceTree = "<group>";
+		};
+		631109381D466D0A00D47C5D /* 代码拉伸图片 */ = {
+			isa = PBXGroup;
+			children = (
+				631109391D466D0A00D47C5D /* UIImage+Fit.h */,
+				6311093A1D466D0A00D47C5D /* UIImage+Fit.m */,
+			);
+			path = "代码拉伸图片";
+			sourceTree = "<group>";
+		};
+		6311093B1D466D0A00D47C5D /* 返回一张圆形头像(裁剪法) */ = {
+			isa = PBXGroup;
+			children = (
+				6311093C1D466D0A00D47C5D /* UIImage+circleImage.h */,
+				6311093D1D466D0A00D47C5D /* UIImage+circleImage.m */,
+			);
+			path = "返回一张圆形头像(裁剪法)";
+			sourceTree = "<group>";
+		};
+		6311093E1D466D0A00D47C5D /* 获取文本框的占位文字及修改文字属性 */ = {
+			isa = PBXGroup;
+			children = (
+				6311093F1D466D0A00D47C5D /* UITextField+Placeholder.h */,
+				631109401D466D0A00D47C5D /* UITextField+Placeholder.m */,
+			);
+			path = "获取文本框的占位文字及修改文字属性";
+			sourceTree = "<group>";
+		};
+		631109411D466D0A00D47C5D /* 获取一个类中的所有类方法和对象方法 */ = {
+			isa = PBXGroup;
+			children = (
+				631109421D466D0A00D47C5D /* NSObject+Runtime.h */,
+				631109431D466D0A00D47C5D /* NSObject+Runtime.m */,
+			);
+			path = "获取一个类中的所有类方法和对象方法";
+			sourceTree = "<group>";
+		};
+		631109441D466D0A00D47C5D /* 剪切获取圆形头像锯齿处理 */ = {
+			isa = PBXGroup;
+			children = (
+				631109451D466D0A00D47C5D /* UIImage+Antialias.h */,
+				631109461D466D0A00D47C5D /* UIImage+Antialias.m */,
+			);
+			path = "剪切获取圆形头像锯齿处理";
+			sourceTree = "<group>";
+		};
+		631109471D466D0A00D47C5D /* 快速获取UIView的frame */ = {
+			isa = PBXGroup;
+			children = (
+				631109481D466D0A00D47C5D /* UIView+Frame.h */,
+				631109491D466D0A00D47C5D /* UIView+Frame.m */,
+			);
+			path = "快速获取UIView的frame";
+			sourceTree = "<group>";
+		};
+		6311094A1D466D0A00D47C5D /* 苹果原生的判断网络状态的分类Reachbility */ = {
+			isa = PBXGroup;
+			children = (
+				6311094B1D466D0A00D47C5D /* Reachability.h */,
+				6311094C1D466D0A00D47C5D /* Reachability.m */,
+			);
+			path = "苹果原生的判断网络状态的分类Reachbility";
+			sourceTree = "<group>";
+		};
+		6311094D1D466D0A00D47C5D /* 日期处理(计算两个时间的间隔值) */ = {
+			isa = PBXGroup;
+			children = (
+				6311094E1D466D0A00D47C5D /* NSCalendar+Init.h */,
+				6311094F1D466D0A00D47C5D /* NSCalendar+Init.m */,
+				631109501D466D0A00D47C5D /* NSDate+Interval.h */,
+				631109511D466D0A00D47C5D /* NSDate+Interval.m */,
+				631109521D466D0A00D47C5D /* 将两个分类写在一起 */,
+			);
+			path = "日期处理(计算两个时间的间隔值)";
+			sourceTree = "<group>";
+		};
+		631109521D466D0A00D47C5D /* 将两个分类写在一起 */ = {
+			isa = PBXGroup;
+			children = (
+				631109531D466D0A00D47C5D /* NSDate+Interval.h */,
+				631109541D466D0A00D47C5D /* NSDate+Interval.m */,
+			);
+			path = "将两个分类写在一起";
+			sourceTree = "<group>";
+		};
+		631109551D466D0A00D47C5D /* 生成沙盒路径 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "生成沙盒路径";
+			sourceTree = "<group>";
+		};
+		631109561D466D0A00D47C5D /* 添加图片时不渲染 */ = {
+			isa = PBXGroup;
+			children = (
+				631109571D466D0A00D47C5D /* UIImage+image.h */,
+				631109581D466D0A00D47C5D /* UIImage+image.m */,
+			);
+			path = "添加图片时不渲染";
+			sourceTree = "<group>";
+		};
+		631109591D466D0A00D47C5D /* 用于控制字典和数组打印输出格式为中文(直接拖入项目中就可以了,不要做任何处理) */ = {
+			isa = PBXGroup;
+			children = (
+				6311095A1D466D0A00D47C5D /* Foundation+Log.m */,
+			);
+			path = "用于控制字典和数组打印输出格式为中文(直接拖入项目中就可以了,不要做任何处理)";
+			sourceTree = "<group>";
+		};
+		6311095B1D466D0A00D47C5D /* 正则表达式 */ = {
+			isa = PBXGroup;
+			children = (
+				6311095C1D466D0A00D47C5D /* NSString+Extension.h */,
+				6311095D1D466D0A00D47C5D /* NSString+Extension.m */,
+			);
+			path = "正则表达式";
+			sourceTree = "<group>";
+		};
+		6311095E1D466D0A00D47C5D /* 自定义字典转模型 */ = {
+			isa = PBXGroup;
+			children = (
+				6311095F1D466D0A00D47C5D /* NSObject+Log.h */,
+				631109601D466D0A00D47C5D /* NSObject+Log.m */,
+			);
+			path = "自定义字典转模型";
+			sourceTree = "<group>";
+		};
+		631109611D466D0A00D47C5D /* Collections2String */ = {
+			isa = PBXGroup;
+			children = (
+				631109621D466D0A00D47C5D /* Collections2String.h */,
+				631109631D466D0A00D47C5D /* Collections2String.m */,
+			);
+			path = Collections2String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +476,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631109651D466D0A00D47C5D /* UIImage+Fit.m in Sources */,
 				6311090A1D466CEA00D47C5D /* ViewController.m in Sources */,
+				6311096F1D466D0A00D47C5D /* UIImage+image.m in Sources */,
+				631109641D466D0A00D47C5D /* UIColor+Hex.m in Sources */,
+				6311096B1D466D0A00D47C5D /* Reachability.m in Sources */,
+				631109661D466D0A00D47C5D /* UIImage+circleImage.m in Sources */,
+				6311096E1D466D0A00D47C5D /* NSDate+Interval.m in Sources */,
+				631109691D466D0A00D47C5D /* UIImage+Antialias.m in Sources */,
+				6311096C1D466D0A00D47C5D /* NSCalendar+Init.m in Sources */,
+				631109681D466D0A00D47C5D /* NSObject+Runtime.m in Sources */,
 				631109071D466CEA00D47C5D /* AppDelegate.m in Sources */,
+				631109731D466D0A00D47C5D /* Collections2String.m in Sources */,
+				631109671D466D0A00D47C5D /* UITextField+Placeholder.m in Sources */,
+				631109711D466D0A00D47C5D /* NSString+Extension.m in Sources */,
+				6311096D1D466D0A00D47C5D /* NSDate+Interval.m in Sources */,
+				631109721D466D0A00D47C5D /* NSObject+Log.m in Sources */,
+				6311096A1D466D0A00D47C5D /* UIView+Frame.m in Sources */,
 				631109041D466CEA00D47C5D /* main.m in Sources */,
+				631109701D466D0A00D47C5D /* Foundation+Log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
