@@ -31,6 +31,7 @@
 		631109711D466D0A00D47C5D /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6311095D1D466D0A00D47C5D /* NSString+Extension.m */; };
 		631109721D466D0A00D47C5D /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 631109601D466D0A00D47C5D /* NSObject+Log.m */; };
 		631109731D466D0A00D47C5D /* Collections2String.m in Sources */ = {isa = PBXBuildFile; fileRef = 631109631D466D0A00D47C5D /* Collections2String.m */; };
+		6318E36B1DD8580900A90AAA /* testBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318E36A1DD8580900A90AAA /* testBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,8 @@
 		631109601D466D0A00D47C5D /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
 		631109621D466D0A00D47C5D /* Collections2String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collections2String.h; sourceTree = "<group>"; };
 		631109631D466D0A00D47C5D /* Collections2String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collections2String.m; sourceTree = "<group>"; };
+		6318E3691DD8580900A90AAA /* testBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testBtn.h; sourceTree = "<group>"; };
+		6318E36A1DD8580900A90AAA /* testBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testBtn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -342,6 +345,8 @@
 			children = (
 				631109621D466D0A00D47C5D /* Collections2String.h */,
 				631109631D466D0A00D47C5D /* Collections2String.m */,
+				6318E3691DD8580900A90AAA /* testBtn.h */,
+				6318E36A1DD8580900A90AAA /* testBtn.m */,
 			);
 			path = Collections2String;
 			sourceTree = "<group>";
@@ -480,6 +485,7 @@
 				6311090A1D466CEA00D47C5D /* ViewController.m in Sources */,
 				6311096F1D466D0A00D47C5D /* UIImage+image.m in Sources */,
 				631109641D466D0A00D47C5D /* UIColor+Hex.m in Sources */,
+				6318E36B1DD8580900A90AAA /* testBtn.m in Sources */,
 				6311096B1D466D0A00D47C5D /* Reachability.m in Sources */,
 				631109661D466D0A00D47C5D /* UIImage+circleImage.m in Sources */,
 				6311096E1D466D0A00D47C5D /* NSDate+Interval.m in Sources */,
@@ -720,6 +726,7 @@
 				6311092E1D466CEA00D47C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6311092F1D466CEA00D47C5D /* Build configuration list for PBXNativeTarget "CategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -728,6 +735,7 @@
 				631109311D466CEA00D47C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		631109321D466CEA00D47C5D /* Build configuration list for PBXNativeTarget "CategoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -736,6 +744,7 @@
 				631109341D466CEA00D47C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
